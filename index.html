@@ -16,11 +16,22 @@
 <body>
 
     <!-- Janela Principal do Sistema -->
-    <main class="system-window" role="application" aria-label="Dashboard de Desafio">
+  <main class="system-window" role="application" aria-label="Dashboard de Desafio">
+    <span class="top-glow"></span>
+    <span class="corner tr"></span>
+    <span class="corner bl"></span>
 
-        <span class="top-glow"></span>
-
-    </main>
+    <!-- Cabeçalho de Status -->
+    <header class="header">
+      <span class="tag">// Status do Jogador</span>
+      <div class="level-display">[ LEVEL: <span class="lvl-num" id="levelNum">0</span> ]</div>
+      <!-- Selo de RANK (cor muda conforme o rank atual) -->
+      <div class="rank-badge" id="rankBadge">
+        <span class="rank-label">RANK</span>
+        <span class="rank-letter" id="rankLetter">E</span>
+        <span class="rank-name" id="rankName">Caçador Iniciante</span>
+      </div>
+    </header>
     
 </body>
 </html>
